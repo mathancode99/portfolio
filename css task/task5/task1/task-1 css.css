@@ -1,0 +1,97 @@
+
+
+.box1{
+   height: 500px;
+   width: 100%;
+   background-color:none; 
+   margin-top: 70px;
+   background-image: url("https://www.prajwaldesai.com/wp-content/uploads/2015/11/desk_items.jpg");
+   background-repeat: no-repeat;
+   background-size: 100% 600px;
+   box-sizing: border-box;
+   text-align: center;
+   padding: 20px;
+   
+ 
+}
+
+.box1 h1{
+    margin: 0px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.box1 .box2{
+    height: 180px;
+    width: 45%;
+    background-color:none;
+    float: left;
+    box-sizing: border-box;
+    padding: 18px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+
+
+.box2 .table,tr,td{
+    border: none;
+    text-align: justify;
+
+}
+.row1{
+    padding: 8px;;
+    font-size: 45px;
+}
+.row2{
+    padding: 13px;;
+    color: gainsboro;
+    
+}
+
+.box1>h1{
+    font-size: 50px;
+    color: ghostwhite;
+}
+
+
+.b{
+    color: lightblue;
+    font-size: 18px;
+   
+}
+
+
+.box1 .box3{
+    height: 180px;
+    width: 45%;
+    background-color: none;
+    float: left;
+    box-sizing: border-box;
+    padding: 18px;
+    margin-bottom: 20px;
+
+}
+
+
+.box1 .box4{
+    height: 180px;
+    width: 45%;
+    background-color: none;
+    float: left;
+    box-sizing: border-box;
+    margin-left: 70px;
+    padding: 18px;
+    margin-right: 20px;
+}
+
+.box1 .box5{
+    height: 180px;
+    width: 45%;
+    background-color: none;
+    float: left;
+    box-sizing: border-box;
+    padding: 18px;
+
+}

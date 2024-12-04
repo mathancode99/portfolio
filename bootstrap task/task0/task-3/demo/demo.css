@@ -1,0 +1,81 @@
+.box{
+    min-height: 669px;
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+
+.box1{
+    height: 370px;
+    width: 450px;
+    background-color: tomato;
+    background-image: linear-gradient(to right,whitesmoke,grey);
+    
+    overflow: hidden;
+    border-radius: 15px;
+    box-shadow: 20px 30px 60px ;
+
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+   transform: scale(1.1);                  
+}
+
+.box2{
+    height: 60%;
+    width: 450px;
+
+    background-color: blue;
+    background-image: radial-gradient(green,yellow);
+    position: absolute;
+
+
+
+    top: 550px;
+    transition: all 2s;
+    /* opacity: 0; */
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 10px;
+  
+    position: relative;        /*            ------------------  doubt irruku -------------           */
+}
+  
+
+
+
+.box1:hover .box2{
+    top: 120px;
+    opacity: 1;
+   
+
+   
+  }
+
+  .box1:hover{
+   
+    transform: scale(1.2);
+   
+  }
+
+  /* .box1:hover .box2{
+    height: 100%;
+  } */
+
+

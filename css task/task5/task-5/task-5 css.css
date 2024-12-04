@@ -1,0 +1,70 @@
+*{
+   
+    box-sizing: border-box;
+}
+
+
+
+.box1{
+    height: 678px;
+    width: 890px;
+    background-color: lightsteelblue;
+    margin: auto;
+    padding: 30px;
+    padding-right: 0px;
+    padding-left:39px ;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+h1>span{
+    border-bottom: 2px solid lightseagreen;
+    
+}
+
+.box1>h1{
+    margin: 0px;
+    margin-bottom: 40px;
+}
+
+
+.box1 h3{
+    margin-bottom: 25px;
+    color: Gray;    
+}
+
+
+
+.box1 .box2{
+    height: 80px;
+    width:260px;
+    background-color:none;
+    margin-right:15px ;
+    float: left;
+    margin-bottom: 20px;
+
+  
+}
+.box2 input{
+    margin-top: 10px;
+    padding: 16px;
+    width: 100%;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+
+button{
+    width: 240px;
+    padding: 14px;
+    background-color: lightseagreen;
+    color: whitesmoke;
+    border: none;
+}
+
+body{
+    background-color: lightseagreen;
+}
+
+.o{
+    font-size: 20px;
+}

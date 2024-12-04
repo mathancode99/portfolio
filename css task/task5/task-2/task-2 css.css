@@ -1,0 +1,100 @@
+body{
+    background-image: url("https://img.pikbest.com/wp/202347/computer-network-vibrant-3d-rendered-digital-background-with-quantum-and-cyber-city_9762297.jpg!bw700");
+    background-size: cover;
+    background-repeat: no-repeat;  
+    margin: 0px;
+    
+  
+}
+
+
+
+
+
+
+table,th,td,tr{
+    border: none;
+    border-collapse: collapse;
+    margin: auto;
+    padding: 10px;
+    background-color: ghostwhite;
+   
+    box-sizing: border-box;
+    margin-bottom:30px;
+  
+   
+}
+
+table td{
+    text-align: center;
+    width: 170px;
+    height: 60px;
+   
+    
+}
+
+.a{
+    text-align: left;
+}
+
+.c{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+table tr>th{
+    background-color: darkcyan;
+    color: ghostwhite;
+    height: 70px;
+}
+
+.bu{
+    padding: 7px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: grey;
+    border: none;
+    color: antiquewhite;
+}
+
+.color{
+    color: red;
+    font-size: 25px;
+}
+.colo{
+    color:greenyellow;
+    font-size: 25px;
+}
+.col{
+    color: gold;
+    font-size: 25px;
+}
+
+.box{
+    height: 180px;
+    width: 100%;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.o{
+    margin: 0px;
+    margin-top: 40px;
+}
+
+.w{
+    margin: 0px;
+    margin-bottom: 50px;
+}
+
+.l{
+    color:blueviolet;
+    text-decoration:underline;
+}
+
+body h1{
+    text-align: center;
+    color: aliceblue;
+}

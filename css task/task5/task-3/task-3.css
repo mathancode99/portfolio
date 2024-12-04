@@ -1,0 +1,139 @@
+.box0{
+
+    height: 670px;
+    width: 100%;
+    background-color:darkcyan;
+    margin: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.box1{
+    height: 590px;
+    width: 100%;
+    background-color: lightskyblue;
+    margin: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+   
+}
+
+
+.box1 .box2{
+
+    height: 100%;
+    width: 100%;
+    background-color: lightskyblue;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+    
+}
+
+
+.container{
+    height: 100%;
+    width: 30%;
+    float: left;
+    background-color:  lightskyblue;
+}
+
+
+
+.box3{
+    height: 33.3%;
+    width: 100%;
+    background-color: lightskyblue;
+    box-sizing: border-box;
+    border: 1px solid lightskyblue;
+    text-align: center;
+    margin: 0px;
+    
+}
+
+
+.box1 h1{
+    margin: 0px;
+}
+.box1 h1~h3{
+    margin: 0px;
+    color: Gainsboro ;
+}
+
+.box3 p{
+    margin: 0px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.box4{
+    margin-top: 75px;
+    height: 70%;
+    width: 3px;
+    background-color: darkcyan;
+    float: left;
+    box-sizing: border-box;
+}
+
+.box5{
+
+    height: 100%;
+    width: 66.7%;
+    background-color:  lightskyblue;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 0px;
+
+
+}
+
+
+.par{
+    margin: 0px;
+    margin-bottom: 12px;
+    color: gray;
+}
+
+
+.box5 input{
+    width: 100%;
+    padding: 17px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 13px;
+    background-color: lightgrey;
+}
+
+.box5 textarea{
+    height: 230px;
+    width: 105%;
+    border-radius: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: none;
+    margin-bottom: 10px;
+    border: none;
+    background-color: lightgrey;
+}
+.box5 button{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    width: 100px;
+    background-color:  #0745b0;
+    color: whitesmoke;
+}
+
+.box5 h1{
+
+    color:  #0745b0;
+}

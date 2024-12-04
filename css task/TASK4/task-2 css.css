@@ -1,0 +1,270 @@
+.o{
+    height:1000px ;
+    width: 1600px;
+    background-color: antiquewhite;
+}
+
+
+
+
+
+.A,.B{
+    height: 600px;
+    width: 390px;
+    background-color:dimgray;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    float: left;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.A img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left:25%;
+    margin-right:25% ; 
+    margin-bottom:10px ;
+    margin-top:5px ;
+    border:4px dotted whitesmoke;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.a1{
+    border:none;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    margin:10px;
+}
+
+.A p{
+    font-size: 18px;
+    margin: 0px;
+    margin-top:10px;
+}
+
+.A div{
+    height: 50px;
+    width: 100%;
+    background-color:none;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.A:hover{
+    border:5px dashed rgb(137, 173, 29) ;
+    box-sizing: border-box;
+   
+}
+.A:hover img{
+
+    border:10px solid gold ;
+   
+   
+}
+
+
+.B{
+    height: 600px;
+    width: 390px;
+    background-color: dimgray;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;    
+}
+    
+
+
+
+
+
+
+.B img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left:25%;
+    margin-right:25% ; 
+    margin-bottom:10px ;
+    margin-top:15px ;
+    border:4px dotted whitesmoke;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.b1{
+    border:none;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    margin:10px;
+}
+
+.B p{
+    font-size: 18px;
+    margin: 0px;
+    margin-top:10px;
+}
+
+.B div{
+    height: 50px;
+    width: 100%;
+    background-color:none;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.B:hover{
+    border:5px dashed rgb(137, 173, 29) ;
+    box-sizing: border-box;
+   
+}
+.B:hover img{
+
+    border:10px solid gold ;
+   
+}
+
+
+
+
+.c{
+    height: 600px;
+    width: 390px;
+    background-color: dimgrey;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;    
+}
+    
+
+.c img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left:25%;
+    margin-right:25% ; 
+    margin-bottom:10px ;
+    margin-top:15px ;
+    border:4px dotted whitesmoke;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.c1{
+    border:none;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    margin:10px;
+}
+
+.c p{
+    font-size: 18px;
+    margin: 0px;
+    margin-top:10px;
+}
+
+.c div{
+    height: 50px;
+    width: 100%;
+    background-color:none;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.c:hover{
+    border:5px dashed rgb(137, 173, 29) ;
+    box-sizing: border-box;
+   
+}
+.c:hover img{
+
+    border: 10px solid gold;
+   
+   
+}
+
+.d{
+    height: 600px;
+    width: 390px;
+    background-color: grey;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+    border: 5px solid red;
+    float: left;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 10px;    
+}
+    
+
+.d img{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin-left:25%;
+    margin-right:25% ; 
+    margin-bottom:10px ;
+    margin-top:15px ;
+    border:4px dotted whitesmoke;
+    padding: 5px;
+    box-sizing: border-box;
+    
+}
+
+.d1{
+    border:none;
+    border-bottom: 2px solid black;
+    font-size: 19px;
+    margin:10px;
+}
+
+.d p{
+    font-size: 18px;
+    margin: 0px;
+    margin-top:10px;
+}
+
+.d div{
+    height: 50px;
+    width: 100%;
+    background-color:none;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.d:hover{
+    border:5px dashed rgb(137, 173, 29) ;
+    box-sizing: border-box;
+   
+}
+.d:hover img{
+
+    border:10px solid gold ;
+   
+   
+}
+   
+    
+

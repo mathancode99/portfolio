@@ -1,0 +1,241 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+   
+
+}
+
+.container{
+    min-height: 600px;
+    /* min-width: 800px; */
+    
+    background-color: yellowgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.box{
+    min-height: 550px;
+    width: 1100px;
+    background-color: aqua;
+    display: flex;
+}
+
+.box1{
+    height: 550px;
+    width: 400px;
+    background-color: rgb(60, 60, 60);
+    display: flex;
+    align-items: center;
+  
+}
+
+.box11{
+    height: 400px;
+    width: 400px;
+    background-color:rgb(60, 60, 60);
+    position: relative;
+    padding: 15px;
+}
+
+.box11 h1{
+    margin-bottom: 15px;
+    color: whitesmoke;
+}
+
+
+.box11 p,h3{
+    color: whitesmoke;
+}
+.box11 button{
+    width: 70px;
+    margin:15px 0px 15px 0px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: black;
+}
+
+.p{
+    margin-top: 15px;
+    margin-left: 20px;
+    
+}
+.box11 span{
+    margin: 10px;
+}
+
+.tri{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(60, 60, 60);
+    position: absolute;
+    transform: rotate(492deg);
+    right: -2%;
+    top: 35%;
+
+}
+
+.box2{
+    height: 550px;
+    /* min-width: 700px; */
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+   
+}
+
+.box21{
+
+    height: 500px;
+    width: 700px;
+    background-color:rgb(240, 240, 240,0.4);
+   
+
+}
+
+.label{
+    min-height: 90px;
+    width: 98%;
+    background-color: transparent;
+    display: flex;
+    margin: 10px;
+    
+}
+
+.firstname{
+    height:80px;
+    width: 60%;
+    background-color: transparent;
+    /* padding-top: 15px; */
+
+}
+.firstname input{
+    width: 97%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+}
+.last{
+    height: 80px;
+    width: 40%;
+    background-color: transparent;
+    /* padding-top: 15px; */
+}
+
+.last input{
+    width: 98%;
+    padding: 13px;
+    border: none;
+    border-radius: 6px;
+   }
+
+.textarea{
+    height: 150px;
+    width: 97%;
+    margin-left: 10px;
+    resize: none;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.box2 button{
+    padding: 8px;
+    margin-left: 10px;
+    background-color: black;
+    color: whitesmoke;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:301px) and (max-width:700px){
+    
+
+
+    .box{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box1{
+        height: 400px;
+        width: 100%;
+    }
+
+    .box11{
+        height: 360px;
+        width: 100%;
+    }
+    .box2{
+        height: 700px;
+        width: 100%;
+
+    }
+    .box21{
+        height: 630px;
+        width: 100%;
+        padding: 3%;
+
+    }
+    .tri{
+        position: absolute;
+        right: 0;
+        left: 40%;
+        transform: rotate(494deg);
+        top: 97%;
+        
+       
+    }
+
+    .box21 input{
+        margin-bottom: 10px;
+    }
+
+    .label{
+        flex-direction: column;
+        margin: 0px;
+        width: 100%;
+    }
+    .firstname{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .last{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .textarea{
+        margin: 0px;
+        width: 98%;
+        margin-top: 10px;
+    }
+    .box2 button{
+        margin: 10px 0px 0px 0px;
+    }
+
+}
+
+
+@media only screen and (min-width:700px) and (max-width:1230px){
+    .box{
+        width:97%;
+    }
+    .container{
+        width: 1200px;
+    }
+    
+}

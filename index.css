@@ -1,0 +1,1071 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Rubik+Mono+One&display=swap');
+
+
+.overall{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+   
+}
+
+/* -------------------------------------Navbar */
+
+.nav{
+    background-color: darkslategrey;
+}
+
+.nav a{
+    color: whitesmoke;
+}
+
+.container{
+    justify-content: space-between;
+}
+.nav-item .a{
+    margin-left: 20px;
+    transition: all 2s;
+}
+
+.nav-item a:hover{
+    font-weight: bold;
+    background-color: red;
+    color: whitesmoke;
+    transform: scale(1.1) translateY(20px);
+    border-radius: 10px;
+    
+    
+}
+
+/* -----------------------------------------home */
+
+
+
+
+.home{
+    min-height: 95vh;
+    background-color: darkkhaki;
+    background-image: url("https://images.unsplash.com/photo-1510519138101-570d1dca3d66?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGRhcmslMjBkZXNrfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 30px;
+
+}
+
+.name{
+    min-height: 500px;
+    width: 600px;
+    background-color: darkcyan;
+    padding: 20px 20px 20px 30px;
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur(30px);
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+.name1{
+    min-height: 500px;
+    width: 600px;
+    background-color: darkcyan;
+    padding: 20px 20px 20px 30px;
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur(2px);
+    color: whitesmoke;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name1 img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+}
+
+.name button{
+    padding: 8px;
+    border-radius: 17px;
+    border: none;
+}
+
+.name p{
+    margin: 20px 0px 20px 0px;
+
+}
+
+.name h2{
+/*     
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal; */      
+}
+
+.name h1{
+    font-size: 50px;
+}
+
+.name h5{
+    background-color: gold;
+    height: 27px;
+    width: 220px;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.name button{
+    background-color: gold;
+    color: whitesmoke;
+}
+/* ----------------------------------------------about */
+.about{
+    min-height: 100vh;
+    background-color:  dimgray;
+    display: flex;
+    align-items: center;
+    /* background-image: url("https://www.jimdo.com/blog/wp-content/uploads/2017/01/Bild.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+}
+
+.about1{
+    min-height: 650px;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 20px 20px 20px 30px;
+    background-color:rgba(0, 0, 0, 0.5);
+    backdrop-filter:blur(0px);
+    /* color: whitesmoke; */
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sub1{
+    min-height: 120px;
+    /* width: 100vw; */
+    /* background-color: darkcyan; */
+    background-color:rgba(0, 0, 0, 0.1);
+    backdrop-filter:blur(10px);
+
+    border-radius: 5px;
+}
+
+.sub1 h1{
+  
+    text-align: center;
+   
+   
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding: 20px;
+    word-spacing: 10px;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: whitesmoke;
+}
+
+.sub2{
+    min-height: 130px;
+    /* width: 100vw; */
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur(5px);
+    /* background-color: darkcyan;    */
+    padding: 10px;
+}
+.sub2 .color{
+    /* color: rgb(231, 231, 231); */
+
+
+    background: linear-gradient(45deg,orange,yellow,gold, goldenrod,red,tomato,navajowhite,brown);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:ani 2.5s linear infinite;
+}
+
+@keyframes ani{
+    to{
+        background-position: 200%;
+    }
+}
+
+
+.sub2 span{
+    color: rgb(120, 122, 124);
+}
+.sub2 p{
+    color: silver;
+}
+.sub2 li{
+    color: goldenrod;
+}
+.sub3{
+    background-color:rgba(0, 0, 0, 0);
+    backdrop-filter:blur(5px);
+    min-height: 220px;
+    /* width: 100vw; */
+    /* background-color: darkcyan;    */
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.sub3 h5{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+.box{
+    height: 200px;
+    width: 300px;
+    /* background-color: rgb(127, 181, 98); */
+    background-color: dimgray;
+    padding: 20px;
+    flex-grow: 0.1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.box h1{
+    font-size: 70px;
+}
+
+.box h1{
+    background: linear-gradient(45deg,orange,yellow,gold, goldenrod,red,tomato,navajowhite,brown);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation:ani 2.5s linear infinite;
+}
+
+@keyframes ani{
+    to{
+        background-position: 200%;
+    }
+}
+/* -------------------------------------Qualification */
+.Qualification{
+    min-height: 100vh;
+    background-color:dimgray;
+    backdrop-filter:blur(5px);
+    padding: 20px;
+}
+.resume{
+    min-height: 100px;
+    background-color:rgba(0, 0, 0, 0.5);
+    backdrop-filter:blur(10px);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.resume h1{
+    color: whitesmoke;
+}
+
+.rsub{
+    min-height:600px ;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.1);
+    backdrop-filter:blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 6px;
+
+}
+.personal{
+    min-height: 550px;
+    width:390px ;
+    border-radius: 5px;
+    /* background-color:rgba(0, 0, 0, 0.3); */
+    /* backdrop-filter:blur(5px); */
+    /* padding: 15px; */
+    /* flex-grow: 1; */
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+
+.p1{
+    height: 300px;
+    width: 370px;
+    background-color:gray;
+    border-radius: 7px;
+    padding: 10px;
+    text-align: center;
+    /* color: whitesmoke; */
+    /* box-shadow: 10px 10px 20px 1px red greenyellow; */
+}
+.p1 h3{
+    color: orange;
+    font-weight: bold;
+}
+
+.p1 p{
+    color: whitesmoke;
+}
+.p1 h2{
+    color: orange;
+}
+
+.p1 img{
+    height: 100px;
+    width: 100px;
+}
+
+.p1 button{
+    padding: 4px;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 2s;
+    background-color: lightseagreen;
+}
+
+.p1 a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+.p1 button:hover{
+    transform: scale(1.1);
+    backdrop-filter: 10px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+
+.psub{
+    min-height:550px ;
+    width: 800px;
+    /* background-color:  rgb(199, 72, 72); */
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 6px;
+}
+
+.m{
+    margin: 15px;
+}
+
+.two{
+    min-height: 300px;
+    width: 100%;
+    background-color: dimgray;
+    padding: 10px;
+    border-radius: 6px;
+}
+.two h2{
+    color: orange;
+    font-weight: bold;
+}
+.two h6{
+    color: whitesmoke;
+}
+
+.two h3{
+    color: orange;
+}
+
+.two p{
+    color: black;
+    /* font-weight: bold; */
+}
+.w{
+    width: 80%;
+}
+
+.class{
+    width: 50%;
+    /* background-color:  rgb(199, 72, 72); */
+    background-color: orange;
+    color: whitesmoke;
+    animation: oi;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes oi{
+    from{
+        width: 0%;
+        /* background-color: blue,black; */
+    }
+    to{
+        width: 98%;
+        /* background-color: greenyellow; */
+        
+    }
+}
+
+
+/* -----------------------------------------class 1 */
+.wi{
+    width: 80%;
+}
+.class1{
+    width: 50%;
+    /* background-color:  rgb(199, 72, 72); */
+    background-color: orange;
+    color: whitesmoke;
+    animation: ooi;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes ooi{
+    from{
+        width: 0%;
+        /* background-color: lawngreen,navy; */
+      
+    }
+    to{
+        width: 80%;
+        /* background-color: red; */
+        
+    }
+}
+/* -----------------------------------------class 2 */
+.wid{
+    width: 80%;
+}
+.class2{
+    width: 50%;
+    /* background-color: rgb(199, 72, 72); */
+    background-color: orange;
+    color: whitesmoke;
+    animation: ooii;
+    animation-duration: 5s;
+    animation-timing-function: linear ;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes ooii{
+    from{
+        width: 0%;
+        /* background-color: red,gold; */
+      
+    }
+    to{
+        width: 70%;
+        /* background-color: cornflowerblue,yellowgreen; */
+      
+        
+    }
+}
+
+/* -----------------------------------------class 1 */
+.widt{
+    width: 80%;
+}
+.class3{
+    width: 50%;
+    /* background-color:  rgb(199, 72, 72); */
+    background-color: orange;
+    /* background-image: linear-gradient(red, yellow); */
+    color: whitesmoke;
+    animation: i;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes i{
+    from{
+        width: 0%;
+      
+    }
+    to{
+        width: 60%;
+        
+    }
+}
+
+/* -------------------------------------project */
+.project{
+    min-height: 100vh;
+    background-color: dimgray;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.project1{
+    height: 10vh;
+    width: 100%;
+    /* background-color:dimgray; */
+    
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color:rgba(0, 0, 0, 0.5);
+    border-radius: 6px;
+    backdrop-filter:blur(5px);
+    word-spacing: 10px;
+    font-size: 60px;
+    letter-spacing: 20px;
+    color: whitesmoke;
+}
+.project2{
+    min-height: 90vh;
+    width: 100%;
+    /* background-color: rgb(199, 72, 72); */
+    background-color:rgba(0, 0, 0, 0.4);
+    backdrop-filter:blur(5px);
+    padding: 10px;
+    border-radius: 6px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 15px;
+}
+.list{
+    border-radius: 6px;
+    height: 50px;
+    background-color:rgba(0, 0, 0, 0.2);
+    backdrop-filter:blur(5px);
+    /* background-color: dimgray; */
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.design{
+    height: 170px;
+    width: 250px;
+    /* background-color: darkgoldenrod; */
+    /* background-image: url("https://www.bu.edu/lernet/artemis/years/2020/projects/FinalPresentations/HTML/webdesign.jpg"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2s;
+    border-radius: 10px;
+    
+    
+}
+
+.design img{
+   height: 100%;
+   width: 100%;
+   border-radius: 10px;
+   position: relative;
+   
+
+}
+
+
+
+.h{
+    display: none;
+    transition-duration: 10s;
+    margin: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.design:hover .h{
+    display: unset;
+    backdrop-filter:blur(10px) ;
+    height: 170px;
+    width: 250px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.project a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.design:hover{
+    transform: scale(1.1) rotate(360deg) ;  
+}
+
+.project span{
+    transition: all 2s;
+}
+
+.list span:hover{
+    background-image: linear-gradient(whitesmoke,transparent);
+    border-radius: 10px;
+    padding: 2px;
+   transform: translateY(-20px) scale(1);
+   
+   
+}
+
+
+/* ---------------------------------------contact */
+
+.contact{
+    min-height: 100vh;
+    background-color: darksalmon;
+}
+
+.contact1{
+    height: 80px;
+    width: 100%;
+    background-color: dimgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* word-spacing: 8px; */
+    font-size: 60px;
+    letter-spacing: 15px;
+    color: whitesmoke;
+}
+
+.contact2{
+    height: 90vh;
+    width: 100%;
+    /* background-color: rgb(199, 72, 72); */
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/905/762/desktop-wallpaper-3d-black-grey-geometric-living-room-trendy-office-wall-black-grey-geometric.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.co1{
+    height: 460px;
+    padding: 30px;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    background-color: darkgray;
+    width: 480px;
+    backdrop-filter:blur(10px);
+    background-color: rgba(237, 210, 206, 0.1);
+   
+    
+  /* background-color: rgb(0,0,0);   */
+  /* background-color: rgba(0,0,0, 0.4); */
+   /* background-color: rgba(237, 210, 206, 0.1); */
+}
+
+/* .col2{
+    height: 100%;
+    width:250px ;
+    background-color: aqua;
+} */
+
+.co1 textarea{
+    resize: none;
+}
+
+.co1{
+    color: whitesmoke;
+}
+
+.in{
+    width:100%;
+    border-radius: 7px;
+    border: none;
+    padding: 10px;
+    color: whitesmoke;
+    resize: none;
+
+}
+
+.but{
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 7px;
+}
+.p span{
+    margin: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:300px) and (max-width:600px){
+    .home{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .name{
+        width: 100%;
+    }
+    .name1{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+        padding:0px;
+    }
+    .about1{
+        width: 100%;
+        padding: 10px;
+    }
+    .personal{
+        /* width: 100%; */
+        text-align: center;
+    }
+    .psub{
+        width: 100%;
+    }
+  
+    .w,.wi,.wid,.widt{
+        width: 100%;
+    }
+    .p1{
+        width: 100%;
+    }
+
+    .project2{
+        grid-template-columns: auto;
+    }
+    .project a{
+        font-size: 15px;
+    }
+    .name1 img{
+        width: 100%;
+    }
+
+}
+ 
+@media only screen and (min-width:600px) and (max-width:800px){
+    .home{
+        width: 100%;
+        flex-direction: column;
+    }
+    .personal{
+        width: 100%;
+        text-align: center;
+
+    }
+    .psub{
+        /* width: 100%; */
+    }
+  
+    .w,.wi,.wid,.widt{
+        width: 100%;
+    }
+    .p1{
+        width: 100%;
+    }
+    .project2{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media only screen and (min-width:800px) and (max-width:1050px){
+    .home{
+        width: 100%;
+        flex-direction: column;
+    }
+    .personal{
+        width: 100%;
+        text-align: center;
+
+    }
+    .psub{
+        /* width: 100%; */
+    }
+  
+    .w,.wi,.wid,.widt{
+        width: 100%;
+    }
+    .p1{
+        width: 100%;
+    }
+    .project2{
+        grid-template-columns: auto auto auto;
+    }
+}
+
+@media only screen and (min-width:1050px) and (max-width:1200px){
+    .home{
+        width: 100%;
+        flex-direction: column;
+    }
+    .personal{
+        width: 100%;
+        text-align: center;
+
+    }
+    .psub{
+        /* width: 100%; */
+    }
+  
+    .w,.wi,.wid,.widt{
+        width: 100%;
+    }
+    .p1{
+        width: 100%;
+    }
+    
+
+    .project2{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+
+
+
+
+
+/* ---------------------------------------------Scroll Animation */
+
+
+.about,.Qualification,.contact{
+  
+animation: app linear;
+animation-timeline: view();
+animation-range: entry 0% cover 40%;
+
+}
+
+
+@keyframes app{
+from{
+    opacity: 0;
+
+   /* clip-path: inset(100% 100% 0 0); */
+
+   /* transform: translateX(-100px); */
+
+   transform: scale(0.4);
+}
+
+to{
+        opacity: 1;
+
+        scale: 1;
+
+       /* clip-path: inset(0 0 0 0); */
+
+       /* transform: translateX(0px); */
+}
+} 
+
+.project{
+  
+    animation: app linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 10%;
+    
+    }
+    
+    
+    @keyframes app{
+    from{
+        opacity: 0;
+    
+       /* clip-path: inset(100% 100% 0 0); */
+    
+       /* transform: translateX(-100px); */
+    
+       transform: scale(0.4);
+    }
+    
+    to{
+            opacity: 1;
+    
+            scale: 1;
+    
+           /* clip-path: inset(0 0 0 0); */
+    
+           /* transform: translateX(0px); */
+    }
+    } 
+    
+    
+
+
+.home{
+    overflow: hidden;
+}
+
+.name{
+    position: relative;
+    overflow: hidden;
+    
+    animation:varum 2s linear  1 ;
+    animation-fill-mode: forwards;
+  
+}
+
+@keyframes varum{
+    from{
+        left: -200px;
+        opacity: 0;
+    }
+
+    to{
+        left: 0px;
+        opacity: 1;
+    }
+}
+
+.name1{
+    position: relative;
+    overflow: hidden;
+  
+    animation:oii 2s linear  1 ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes oii{
+    from{
+        right: -200px;
+        opacity: 0;
+    }
+
+    to{
+        right: 0px;
+        opacity: 1;
+    }
+}
+
+.rsub{
+    /* overflow-x: hidden;     */
+}
+/* 
+.side{
+   position: relative;
+    animation: eee linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 55%;
+  
+
+    }
+    
+    
+    @keyframes eee{
+    from{
+        opacity: 0;
+        left: -400px;
+     
+    }
+    
+    to{
+            opacity: 1;
+        left: 0px;
+           
+    }
+    } 
+
+
+   
+
+.side1{
+    animation: eee1 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+    }
+    
+    
+    @keyframes eee1{
+    from{
+        opacity: 0;
+    
+      
+    
+       transform: translateX(-100px);
+    
+    }
+    
+    to{
+            opacity: 1;
+    
+    
+           transform: translateX(0px);
+    }
+    } 
+ */
+
+
+/* 
+    .oru{
+        animation: oru linear;
+        animation-timeline: view();
+        animation-range: entry 0% cover 30%;
+        }
+        
+        
+        @keyframes oru{
+        from{
+            opacity: 0;
+        
+        
+        
+           transform: translateX(-100px);
+        
+           
+        }
+        
+        to{
+                opacity: 1;
+        
+              
+        
+               transform: translateX(0px);
+        }
+        } 
+    
+     */
+    
+    

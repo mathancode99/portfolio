@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+.A{
+    min-height: 500px;
+    /* width: 100%; */
+    background-color: darkcyan;
+    padding: 10px;
+    /* margin: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+   
+    
+    
+}
+
+.A h2{
+    margin-bottom: 20px;
+    color: darkcyan;
+}
+
+.b1 p{
+    margin:20px 0px 20px 0px ;
+
+}
+.c p{
+    margin:20px 0px 20px 0px ;
+
+}
+.d p{
+    margin:20px 0px 20px 0px ;
+
+}
+
+.e h1{
+    margin: 15px 0px 10px 0px;
+    color: darkcyan;
+}
+
+.A1{
+    min-height:300px ;
+    width: 100%;
+    background-color: lightsteelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid darkblue;
+   
+    /* padding: 10px; */
+}
+
+.b{
+    /* height: 350px; */
+    height:270px ;
+    width: 180px;
+   
+
+   }
+
+.b1{
+    background-color: lightsteelblue;
+    height: 270px;
+    width: 290px;
+    flex-grow: 1;
+    border: 2px solid lightcyan;
+}
+
+.c{
+    background-color: lightsteelblue;
+    height: 270px;
+    width: 290px;
+    flex-grow: 1;
+    border: 2px solid lightcyan;
+}
+
+.d{
+    background-color: lightsteelblue;
+    height: 270px;
+    width: 290px;
+    flex-grow: 1;
+    border: 2px solid lightcyan;
+}
+
+.e{
+    background-color: lightsteelblue;
+    height: 270px;
+    width: 350px;
+    flex-grow: 1;
+    border: 2px solid lightcyan;
+}
+
+.icon{
+    background-color: lightsteelblue;
+    height: 50px;
+    padding: 15px;
+    text-align: center;
+
+}
+
+.icon span{
+    margin: 0px 8px 0px 8px;
+}
+
+.e img{
+    height: 70px;
+    margin-left: 5px;
+    
+}
+
+.box{
+    min-height:80px ;
+    width: 100%;
+   background-color: lightsteelblue;
+   border-top:2px solid grey ;
+   /* display: flex; */
+}
+
+.box1{
+    height:80px ;
+    width: 300px;
+   background-color:lightsteelblue;
+   float: left;
+}
+
+.box1 .box00{
+    height: 80px;
+    width: 220px;
+    background-color: lightsteelblue;
+    float: right;
+    padding-top: 30px;
+}
+
+.box1 div{
+    height: 80px;
+    width: 80px;
+    background-color: lightsteelblue;
+    padding: 4px;
+}
+
+button img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;}
+
+.button{
+    height: 70px;
+    width: 70px;
+   
+    border-radius: 50%;
+    
+    padding: 3px;
+    float: left;
+    border: none;
+    background-color: lightsteelblue;
+}
+.box1 span{
+    float: left;
+}    
+
+
+
+.box2{
+
+    height: 80px;
+    width: 300px;
+    background-color:lightsteelblue;
+    float: right;
+    padding: 12px;
+}
+
+@media only screen and (min-width:320px) and (max-width:600px){ 
+    .A1{
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+    }
+    .b{
+        flex-grow: 1;
+        /* width: 100%; */
+        width: 180px;
+    }
+    .box1 {
+      flex-direction: column;
+    }
+
+    .b1,.c,.d,.e{
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:800px){ 
+    .A1{
+       /* flex-direction: column; */
+       flex-wrap: wrap;
+    }
+    .b{
+        flex-grow: 1;
+        /* width: 100%; */
+    }
+    .b1,.c,.d,.e{
+        text-align: center;
+    }
+}

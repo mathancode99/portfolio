@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box1{
+    height: 800px;
+    width: 85%;
+    background-color:lightyellow;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+
+    border: 2px solid lightgray;
+    
+
+}
+
+.box2{
+    height: 60px;
+    width: 100%;
+    background-color: lightyellow;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.box3{
+    height: 150px;
+    width: 100%;
+    background-color: red;
+    display: flex;
+
+}
+
+.box4{
+    height: 100%;
+    width:25%;
+    background-color: lightyellow;
+    border: 2px solid lightyellow;
+    padding-top: 20px;
+
+}
+
+.box5{
+    height: 70%;
+    width: 60%;
+    background-color: lightcyan;
+    float: left;
+    padding-top: 30px;
+    padding-left:50px ;
+    /* padding-right:40px ; */
+    gap: 20px;
+    
+}
+
+.box5 div{
+    height: 70px;
+    width: 48%;
+    background-color: none;
+    float: left;
+    /* border: 1px solid gray; */
+    margin-top: 30px;
+    margin-right:6px ;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+.box6{
+    height: 70%;
+    width: 40%;
+    background-color: orange;
+    float: left;
+}
+
+input{
+    margin-top: 20px;
+    width: 94%;
+    /* padding: 10px; */
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color:transparent;
+
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+   
+}
+
+textarea{
+    background-color: transparent;
+    margin-top: 10px;
+    border: none;
+    resize: none;
+    border-bottom:2px solid grey ;
+    margin-bottom: 10px;
+    
+}
+
+.box5 button{
+   padding: 12px;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: white;
+    border: none;
+    }
+
+.box4 button{
+
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    background-color: darkcyan;
+
+    margin-bottom: 
+    20px;
+}
+
+.box4 span{
+    color: darkcyan;
+}
+
+.box6 img{
+    height: 100%;
+    width: 100%;
+}

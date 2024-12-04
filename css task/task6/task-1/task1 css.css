@@ -1,0 +1,252 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+
+body{
+background-image: url("https://img.freepik.com/premium-photo/tropical-summer-sand-beach-background_52701-523.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+
+text-align: center;
+
+}
+
+.box1{
+    height: 950px;
+    width: 100%;
+    background-color:none;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 200px;
+    box-sizing: border-box;
+   
+}
+
+.box1 .box2:first-child{
+    height: 900px;
+    width: 600px;
+    background-color: aqua;
+ 
+    box-sizing: border-box;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+.box21 span{
+    color: yellow;
+}
+
+
+.box1 .box3:nth-child(2) {
+
+    height: 900px;
+    width: 600px;
+    background-color:darkcyan;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.box1 .box4:last-child {
+
+    height: 900px;
+     width: 600px; 
+    background-color: darkcyan;
+   
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+} 
+
+
+
+
+.box1 img{
+    height:360px ;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+    
+}
+
+h1{
+    font-size:50px ;
+    margin-bottom: 40px;
+}
+
+h2{
+    margin-top: 10px;
+}
+p{
+    font-size: 25px;
+}
+
+
+.box20{
+
+    height:360px ;
+    width: 100%;
+    background-color: rgb(188, 148, 225);
+    box-sizing: border-box;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+}
+
+
+.box2 .box21{
+
+    height:350px ;
+    width: 100%;
+    background-color:darkcyan;
+    box-sizing: border-box;
+    padding:30px;
+}
+
+.box2 .box22{
+
+    height:190px ;
+    width: 100%;
+    background-color: goldenrod;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+.box2 .box23{
+    height:188px;
+    width: 33.3%;
+    background-color: rgb(234, 149, 21);
+    border-right: 1px solid ;
+    float: left;
+    padding: 30px;
+    
+}
+
+.f{
+
+font-size: 40px;
+margin: 0px;
+
+}
+.P{
+    padding-top: 10px;
+    margin-top:5px ;
+    font-size: 40px;
+margin: 0px;
+
+}
+
+
+
+.i{
+    border-bottom-left-radius: 20px;
+}
+.o{
+    border-bottom-right-radius: 20px;
+
+}
+
+.box22 .o:last-child{
+    border: none;
+}
+
+
+
+
+
+.box3 .box31{
+
+    height:350px ;
+    width: 100%;
+    background-color:darkcyan;
+    padding: 30px;
+}
+
+.box3 .box32{
+
+    height:190px ;
+    width: 100%;
+    background-color: goldenrod;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+
+.box3 .box33{
+    height: 100%;
+    width: 33.3%;
+    background-color: rgb(132, 196, 21);
+    border-right: 1px solid black;
+    float: left;
+    padding: 30px;
+}
+
+.box32 .o:last-child{
+    border: none;
+}
+
+
+
+.box4 .box41{
+
+    height:350px ;
+    width: 100%;
+    background-color: darkcyan;
+    padding: 30px;
+}
+
+.box4 .box42{
+
+    height:190px ;
+    width: 100%;
+    background-color: goldenrod;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+
+}
+
+.box4 .box43{
+    height: 100%;
+    width: 33.3%;
+    background-color: darkorchid;
+    border-right: 1px solid black;
+    float: left;
+    padding: 30px;
+}
+
+.box42 .o:last-child{
+    border: none;
+}
+
+
+
+.box4 span{
+    color: red;
+}
+
+.box3 span{
+    color:chartreuse
+}
+
+.box4 p{
+    
+}

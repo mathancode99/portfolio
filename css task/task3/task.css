@@ -1,0 +1,270 @@
+body{
+    background-image: url("https://wallpapers.com/images/hd/dark-theme-background-4hywnt6qgnals7h7.jpg");
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.A{
+    height:950px;
+    width:100%;
+    background-color:none;
+}
+
+.B{ height: 80px;
+    width: 100%;
+    background-color: none;
+    color:aquamarine;
+    
+   
+    
+}
+.b1{
+    margin:0px;
+    font-size:70px;
+    text-align:center;
+}
+.b2{
+    text-align: center;
+    margin: 0px;
+    color:ghostwhite;
+}
+
+.c{
+    height:310px;
+    width:310px;
+    background-color:NONE;
+    margin-top:40px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding:20px;
+    border:3px solid ghostwhite;
+    float: left;
+    margin-left:170px ;
+}
+
+.c1{
+    margin:4px ;
+}
+
+.c2{
+    color:ghostwhite;
+}
+
+.im{
+    height:60px;
+    width:60px;
+}
+.bu{
+    height:80px;
+    width: 80px;
+    border-radius:50% ;
+    font-size:10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    background-color: rgb(68, 158, 40);
+    border: none;
+}
+
+.d{
+    height:310px;
+    width:310px;
+    background-color: transparent;
+    margin-top:40px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding:20px;
+    border:3px solid ghostwhite;
+    float: left;
+    margin-left: 15px;
+    margin-right:15px ;
+}
+
+.d1{
+    margin:4px ;
+}
+
+.im1{
+    height:60px;
+    width:60px;
+}
+.bu1{
+    height:80px;
+    width: 80px;
+    border-radius:50% ;
+    font-size:10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    background-color: rgb(68, 158, 40);
+    border: none;
+}
+
+.e{
+    height:310px;
+    width:310px;
+    background-color: none;
+    margin-top:40px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding:20px;
+    border:3px solid ghostwhite;
+    float: left;
+}
+
+.e1{
+    margin:4px ;
+}
+
+.im2{
+    height:60px;
+    width:60px;
+}
+.bu2{
+    height:80px;
+    width: 80px;
+    border-radius:50% ;
+    font-size:10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    background-color: rgb(68, 158, 40);
+    border: none;
+   }
+
+.f{
+    height:310px;
+    width:310px;
+    background-color: none;
+    margin-top:15px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding:20px;
+    border:3px solid ghostwhite;
+    float: left;
+    margin-left: 170px;
+}
+
+.f1{
+    margin:4px ;
+}
+
+.im3{
+    height:60px;
+    width:60px;
+}
+.bu3{
+    height:80px;
+    width: 80px;
+    border-radius:50% ;
+    font-size:10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    background-color: rgb(68, 158, 40);
+    border: none;
+    clear: left;    
+}
+
+.g{
+    height:310px;
+    width:310px;
+    background-color: transparent;
+    margin-top:15px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding:20px;
+    border:3px solid ghostwhite;
+    float: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.g1{
+    margin:4px ;
+}
+
+.im5{
+    height:60px;
+    width:60px;
+}
+.bu5{
+    height:80px;
+    width: 80px;
+    border-radius:50% ;
+    font-size:10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    background-color: rgb(68, 158, 40);
+    border: none;
+    
+
+
+    
+    
+}
+
+.h{
+    height:310px;
+    width:310px;
+    background-color: none;
+    margin-top:15px;
+    border-radius: 18px;
+    box-sizing: border-box;
+    padding:20px;
+    border:3px solid ghostwhite;
+    float: left;
+}
+
+.h1{
+    margin:4px ;
+}
+
+.im6{
+    height:60px;
+    width:60px;
+}
+.bu6{
+    height:80px;
+    width: 80px;
+    border-radius:50% ;
+    font-size:10px;
+    margin-top:30px;
+    margin-bottom:10px;
+    background-color: rgb(68, 158, 40);
+    border: none;
+    clear: left;
+
+
+    
+    
+}
+
+.r{
+    height:690px;
+    width: 100%;
+    background-color:none;
+    box-sizing: border-box;
+}
+
+.rm{
+    height: 140px;
+    width:100% ;
+    background-color:transparent;
+
+}
+
+.oo{
+    padding: 7px;
+    width:140px ;
+    border-radius:20px ;
+    border: none;
+    background-color: aqua;
+    color: blue;
+}
+
+.u{
+    border: none;
+    border-bottom: 2px solid ghostwhite;
+   
+}
+.y{
+    color: ghostwhite;
+}

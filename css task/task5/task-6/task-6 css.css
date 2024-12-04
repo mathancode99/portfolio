@@ -1,0 +1,124 @@
+.box1{
+    height: 600px;
+    width: 500px;
+    background-color:darkcyan;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 30px;
+   
+    margin-top:40px ;
+}
+
+.box1 .box2{
+
+    height: 100%;
+    width: 100%;
+    background-color:lightblue;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 20px;
+    border-radius: 5px;
+   
+}
+div h2{
+    margin: 0px;
+    text-align: center;
+}
+
+div .input{
+    width: 94%;
+    padding: 13px;
+    border-radius: 7px;
+    border: 1px solid gray;
+    margin: 5px 0px 10px 0px;
+}
+
+.box1 .box2 .box3{
+    height: 80px;
+    width: 185px;
+    background-color:none;
+    float: left;
+    margin-right: 25px;
+}
+.box1 .box2 div{
+
+    height: 80px;
+    width: 185px;
+    background-color: none;
+    float: left;
+
+}
+
+.box3 input{
+   
+    padding: 13px;
+    width:86%;
+    border-radius: 7px;
+    border: 1px solid gray;
+}
+
+.box1 .box2 div input{
+    width:89%;
+    padding: 13px;
+    border-radius: 7px;
+    border: 1px solid gray;
+
+}
+
+
+.r{
+   
+    margin-top:10px ;
+    margin-bottom: 20px
+    
+}
+
+.la{
+    margin-right: 20px;
+}
+ 
+.o{
+    padding:10px;
+    padding-right:11px ;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+border: 1px solid grey;
+border-left: none;
+margin-right:20px ;
+
+}   
+.m{
+    padding:11px;
+    border-top-left-radius:5px;
+    border-bottom-left-radius:5px;  
+    border: 1px solid grey; 
+    border-right: none;
+    width: 120px;
+    margin-top:6px ;
+   
+}
+
+.k{
+    padding:11px;
+    border: 1px solid grey; 
+    border-radius:5px ;
+
+}
+
+button{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius:5px ;
+   
+    border: 2px solid grey; 
+    background-color: darkcyan;
+    color: whitesmoke; 
+    border: none;
+
+}
+body{
+    background-color: darkseagreen;
+    font-family: 'Times New Roman';
+}
